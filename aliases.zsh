@@ -11,13 +11,9 @@ alias version="commit 'version'"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
-alias library="cd $HOME/Library"
-alias sites="cd $HOME/Sites"
-alias lara="sites && cd laravel/"
-alias docs="lara && cd docs/"
 
 # Laravel
-alias a="php artisan"
+alias art="php artisan"
 alias fresh="php artisan migrate:fresh --seed"
 alias tinker="php artisan tinker"
 alias seed="php artisan db:seed"
@@ -38,9 +34,9 @@ alias docker-composer="docker-compose"
 alias mssql="docker run -e ACCEPT_EULA=Y -e SA_PASSWORD=LaravelWow1986! -p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest"
 
 # Git
-alias gst="git status"
+alias gs="git status"
 alias gb="git branch"
-alias gc="git checkout"
+alias go="git checkout"
 alias gl="git log --oneline --decorate --color"
 alias amend="git add . && git commit --amend --no-edit"
 alias commit="git add . && git commit -m"

@@ -44,10 +44,6 @@ $HOME/.composer/vendor/bin/global-ray install
 # Create a Sites directory
 mkdir $HOME/Sites
 
-# Create sites subdirectories
-mkdir $HOME/Sites/blade-ui-kit
-mkdir $HOME/Sites/laravel
-
 # Clone Github repositories
 ./clone.sh
 
